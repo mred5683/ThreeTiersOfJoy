@@ -5,7 +5,7 @@ using static System.Console;
 namespace ConsoleInterface {
   internal class Program {
     private static void Main(string[] args) {
-      WriteLine("Hello fellow porn addict!!!!");
+      WriteLine("Hello fellow addict!!!!");
       ReadKey(true);
       var actressService = new ActressService();
 
