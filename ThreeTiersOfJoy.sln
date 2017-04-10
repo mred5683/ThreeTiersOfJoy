@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersistanceLayer", "PersistanceLayer\PersistanceLayer.csproj", "{4E842606-C650-4DC5-8045-F516305EDCF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogicLayer", "BusinessLogicLayer\BusinessLogicLayer.csproj", "{191BA6EE-6A0B-404A-867D-A5E784B603F5}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebInterface", "..\..\..\..\Users\Nash\Documents\Visual Studio 2015\WebSites\WebInterface\", "{E177EB49-5C57-4643-B264-2C7C3ECDCA52}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		ProjectReferences = "{191ba6ee-6a0b-404a-867d-a5e784b603f5}|BusinessLogicLayer.dll;{4E842606-C650-4DC5-8045-F516305EDCF4}|PersistanceLayer.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_57693"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\Users\Nash\Documents\Visual Studio 2015\WebSites\WebInterface\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57693\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_57693"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\Users\Nash\Documents\Visual Studio 2015\WebSites\WebInterface\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57693\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "57693"
+		SlnRelativePath = "..\..\..\..\Users\Nash\Documents\Visual Studio 2015\WebSites\WebInterface\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleInterface", "ConsoleInterface\ConsoleInterface.csproj", "{3AE70116-27B5-4B10-83BE-A2D3C6BCBF5F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E842606-C650-4DC5-8045-F516305EDCF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E842606-C650-4DC5-8045-F516305EDCF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E842606-C650-4DC5-8045-F516305EDCF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E842606-C650-4DC5-8045-F516305EDCF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{191BA6EE-6A0B-404A-867D-A5E784B603F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{191BA6EE-6A0B-404A-867D-A5E784B603F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{191BA6EE-6A0B-404A-867D-A5E784B603F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{191BA6EE-6A0B-404A-867D-A5E784B603F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E177EB49-5C57-4643-B264-2C7C3ECDCA52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E177EB49-5C57-4643-B264-2C7C3ECDCA52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E177EB49-5C57-4643-B264-2C7C3ECDCA52}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{E177EB49-5C57-4643-B264-2C7C3ECDCA52}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{3AE70116-27B5-4B10-83BE-A2D3C6BCBF5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AE70116-27B5-4B10-83BE-A2D3C6BCBF5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AE70116-27B5-4B10-83BE-A2D3C6BCBF5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AE70116-27B5-4B10-83BE-A2D3C6BCBF5F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
