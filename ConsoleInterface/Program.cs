@@ -14,7 +14,7 @@ namespace ConsoleInterface {
         EyeColor = EyeColor.Hazel,
         Age = 28,
         BodyMeasurements = new[] {34, 26, 30},
-        HairColor = HairColor.Brunette,
+        HairColor = HairColor.Black,
         CupSize = CupSize.C,
         Ethnicity = Ethnicity.French,
         Height = 5.4f,

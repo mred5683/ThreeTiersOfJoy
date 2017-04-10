@@ -2,7 +2,8 @@
   public enum HairColor {
     Red,
     Blonde,
-    Brunette,
+    Brown,
+    Black,
     Other
   }
 
@@ -28,7 +29,7 @@
   public enum Ethnicity {
     White,
     Black,
-    Hispanic,
+    Latina,
     French
   }
 }
